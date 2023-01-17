@@ -6,6 +6,6 @@
   text-align: center;
 }
 
-a {
-  color: white
+.footer a {
+  color: inherit  /* makes more sense if you want something to have the same value as its parent */
 }
