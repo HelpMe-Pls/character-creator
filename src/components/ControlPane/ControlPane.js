@@ -12,6 +12,7 @@ const ControlPane = ({
   currentOption,
   handleSelectOption,
 }) => {
+
   return (
     <div className={styles.controlPane}>
       <h2 className={styles.title}>
@@ -34,7 +35,7 @@ const ControlPane = ({
           </ToggleButton>
         ))}
       </ButtonRow>
-    </div>
+      </div>
   );
 };
 
